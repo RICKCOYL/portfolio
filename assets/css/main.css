@@ -3962,3 +3962,6 @@ body.is-preload #sidebar nav ul li {
   width: 300px;
   border-radius: 50%;
 }
+.work-img {
+  width: 100%;
+}
