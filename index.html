@@ -1,237 +1,338 @@
 <!DOCTYPE HTML>
-<!--
-	Hyperspace by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<html lang="en">
 
 <head>
-	<title>My portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta property="og:image" content="./images/ogimage.png" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 
-	<meta property="og:title" content="MY PORTFOLIO" />
+  <title>RICK OBURU | Portofolio</title>
 
-	<meta property="og:image:width" content="1200" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76863419-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-	<meta property="og:image:height" content="630" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" />
-	</noscript>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    gtag('config', 'UA-76863419-3');
+  </script>
 </head>
 
 <body class="is-preload">
 
-	<!-- Sidebar -->
-	<section id="sidebar">
-		<div class="inner">
-			<nav>
-				<ul>
-					<li><a href="#intro">Welcome</a></li>
-					<li><a href="#one">ABOUT ME</a></li>
-					<li><a href="#two">MY WORK</a></li>
-					<li><a href="#three">HOW TO REACH ME</a></li>
-				</ul>
-			</nav>
-		</div>
-	</section>
+  <!-- Header -->
+  <section id="header">
+    <header>
+      <span class="image avatar"><img src="images/avatar.jpg" alt="Ceamatu Cristian Viorel" /></span>
+      <h1 id="logo"><a href="#">RICK OBURU</a></h1>
+      <p>Web Developer and Programmer</p>
+    </header>
+    <nav id="nav">
+      <ul>
+        <li><a href="#showcase" class="active">About</a></li>
+        <li><a href="#skills">Things I Can Do</a></li>
+        <li><a href="#experience">A Few Accomplishments</a></li>
+        <li><a href="#certifications">And some certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <footer>
+      <ul class="icons">
+        <li><a href="https://www.linkedin.com/in/rickoburu/" target="_blank" rel="noopener noreferrer"
+            class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+        <li><a href="https://github.com/RICKCOYL" target="_blank" rel="noopener noreferrer"
+            class="icon brands fa-github"><span class="label">Github</span></a></li>
+        <li><a href="mailto:rickoburu@gmail.com" target="_blank" rel="noopener noreferrer"
+            class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+          <li  class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+      </ul>
+    </footer>
+  </section>
 
-		<!-- Intro -->
-		<section id="intro" class="wrapper style1 fullscreen fade-up">
-			<div class="inner animate__animated animate__backInRight">
-				<img src="./images/linkedinImg (2).jpg" alt="" class="id">
-				<h1 class="">RICK OBURU</h1>
-				<p>Web Developer and Programmer</p>
-				<ul class="actions">
-					<li><a href="#one" class="button scrolly">Learn more</a></li>
-				</ul>
+  <!-- Wrapper -->
+  <div id="wrapper">
 
-				<ul class="icons">
-					<li><a href="https://twitter.com/Rickcoyl" class="icon brands fa-twitter" target="_blank"><span
-								class="label">Twitter</span></a></li>
-					<li><a href="https://www.facebook.com/Rickcoyl/" class="icon brands fa-facebook-f"
-							target="_blank"><span class="label">Facebook</span></a></li>
-					<li><a href="https://github.com/RICKCOYL" class="icon brands fa-github" target="_blank"><span
-								class="label">GitHub</span></a></li>
-					<li><a href="https://www.instagram.com/rick_oburu/" class="icon brands fa-instagram"
-							target="_blank"><span class="label">Instagram</span></a></li>
-					<li><a href="https://www.linkedin.com/in/rickoburu/" class="icon brands fa-linkedin-in"
-							target="_blank"><span class="label">LinkedIn</span></a></li>
-				</ul>
+    <!-- Main -->
+    <div id="main">
 
-			</div>
-		</section>
-
-		<!-- One -->
-		<section id="one" class="wrapper style2 spotlights">
-			<section>
-
-				<div class="content">
-					<div class="inner">
-						<h2>About Me</h2>
-						<p>Hi, I am Rick, a Full-Stack web Developer, I am looking for opportunities to continuing to
+      <!-- Showcase -->
+      <section id="showcase">
+        <div class="image main" data-position="center">
+          <img src="images/banner2.jpg" alt="Watchng code through glasses" />
+          <div class="blur"></div>
+          <div id="particles-js"></div>
+        </div>
+        <div class="container">
+          <header class="major">
+            <h2>About me</h2>
+            <p>Hi, I am Rick, a Full-Stack web Developer, I am looking for opportunities to continuing to
 							learn and
 							work with driven and successful teams while expanding my skills in multiple programming
-							languages.
+							languages.</p>
+          </header>
+          <p>My expertise is in web technologies, and I specialize in JavaScript and Ruby. I've worked
+            with other frontend and backend technologies as well including React, Redux, Bootstrap, and
+            Ruby on Rails just to name a few..</p>
+        </div>
+      </section>
 
-							I love solving challenging algorithmic tasks that make me learn something new and I am ready
-							to relocate.
+      <!-- Skills -->
+      <section id="skills">
+        <div class="container">
+          <h3>Things I Can Do</h3>
+          <p>My previous experiences enforced me to work in multinational teams, under stressful conditions, solving
+            problems, and keeping myself
+            motivated at all times. Internationally experienced and multilingual in English and Swahili</p>
+          <ul class="feature-icons">
+            <li class="icon solid fa-code">Write simple code that follows the style guides</li>
+            <li class="icon solid fa-fast-forward">Frontend (React/Redux/ES6)</li>
+            <li class="icon solid fa-fast-backward">Backend (Rails/Node)</li>
+            <li class="icon solid fa-coffee">Tooling (Git/Heroku/SEO)</li>
+            <li class="icon solid fa-bolt">Data structures and algorithms</li>
+            <li class="icon solid fa-users">Remote experience/teamwork/fast learner/motivated</li>
+          </ul>
+        </div>
+      </section>
 
-							My expertise is in web technologies, and I specialize in JavaScript and Ruby. I've worked
-							with other frontend and backend technologies as well including React, Redux, Bootstrap, and
-							Ruby on Rails just to name a few.</p>
+      <!-- Experience -->
+      <section id="experience">
+        <div class="container">
+          <h3>A Few Accomplishments</h3>
+          <p>During my self-taught journey, I managed to deploy and maintain web solutions for companies and I got
+            numerous certifications from different online course platforms by building projects.</p>
+          <div class="features">
+            <article>
+              <a href="https://github.com/RICKCOYL/appointment-front-end/tree/feature" target="_blank" rel="noopener noreferrer" class="image"><img
+                  src="images/img.png" alt="" /></a>
+              <div class="inner">
+                <h4>Appointment App</h4>
+                <p>This is a fullstack  Appointment app where users can make
+                  appointments with a specialist by sign in up and making </p>
+                <p>React, Redux, Bootstrap and ruby on rails</p>
+                <ul class="actions">
+                  <li><a href="https://hungry-jones-a19c2a.netlify.app" class="button small primary solid" target="_blank"
+                      rel="noopener noreferrer"><i class="fas fa-desktop mr-1"></i> Live
+                      demo</a></li>
+                  <li><a href="https://github.com/RICKCOYL/appointment-front-end/tree/feature" class="button small solid"
+                      target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch mr-1"></i> Source
+                      code</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
 
-					</div>
-				</div>
-			</section>
+            <article>
+              <a href="https://github.com/RICKCOYL/Book-store" target="_blank" rel="noopener noreferrer" class="image"><img
+                  src="images/bookstore.png" alt="" /></a>
+              <div class="inner">
+                <h4>Book Store</h4>
+                <p>This was a collaborative project Where a user can add and
+                  remove books and filter them according to categories. </p>
+                <p>React and Redux</p>
+                <ul class="actions">
+                  <li><a href="https://microversebookstore.herokuapp.com/" class="button small primary solid" target="_blank"
+                      rel="noopener noreferrer"><i class="fas fa-desktop mr-1"></i> Live
+                      demo</a></li>
+                  <li><a href="https://github.com/RICKCOYL/Book-store" class="button small solid"
+                      target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch mr-1"></i> Source
+                      code</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
 
-		</section>
+            <article>
+              <a href="https://github.com/RICKCOYL/FOOTBALL-HIGHLIGHTS" target="_blank" rel="noopener noreferrer"
+                class="image"><img src="images/image.png" alt="" /></a>
+              <div class="inner">
+                <h4>Football Highlights</h4>
+                <p> A user can select and filter games base on
+                  the league chosen and watch the match highlights.</p>
+                <p>React redux project built using the scorebat API.</p>
+                <ul class="actions">
+                  <li><a href="https://nifty-heisenberg-dbdf6e.netlify.app/" class="button small primary solid"
+                      target="_blank" rel="noopener noreferrer"><i class="fas fa-desktop mr-1"></i> Live
+                      demo</a></li>
+                  <li><a href="https://github.com/RICKCOYL/FOOTBALL-HIGHLIGHTS"
+                      class="button small solid" target="_blank" rel="noopener noreferrer"><i
+                        class="fas fa-code-branch mr-1"></i>
+                      Source
+                      code</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
 
-		<!-- Two -->
-		<section id="two" class="wrapper style3 fade-up">
-			<div class="inner">
-				<h2>My Work</h2>
-				<p>Below are projects i have worked on alone and collaborated with other developers.</p>
-				<div class="features">
-					<section>
-						<span class="icon solid major fa-code"></span>
-						<h3>Appointment App</h3>
-						<img src="./images/img.png" alt="twitter-img" class="work-img">
-						<p>This is a fullstack React, Redux and ruby on rails Appointment app where users can make
-							appointments with a specialist</p>
-						<a href="https://github.com/RICKCOYL/appointment-front-end.git" target="_blank">View code</a>
-						<a href="https://hungry-jones-a19c2a.netlify.app/" class="btn" target="_blank">Live
-							version</a>
-					</section>
-					<section>
-						<span class="icon solid major fa-code"></span>
-						<h3>Book Store</h3>
-						<img src="./images/bookstore.png" alt="twitter-img" class="work-img">
-						<p>This book store built with react and redux for state management. Where a user can add and
-							remove books and filter them according to categories</p>
-						<a href="https://github.com/RICKCOYL/Book-store" target="_blank">View code</a>
-						<a href="https://microversebookstore.herokuapp.com/" class="btn" target="_blank">Live
-							version</a>
-					</section>
-					<section>
-						<span class="icon solid major fa-code"></span>
-						<h3>Football Highlights</h3>
-						<img src="./images/image.png" alt="twitter-img" class="work-img">
-						<p>React redux project built using the scorebat API. A user can select and filter games base on
-							the league chosen and watch the match highlights.</p>
-						<a href="https://github.com/RICKCOYL/FOOTBALL-HIGHLIGHTS" target="_blank">View code</a>
-						<a href="https://nifty-heisenberg-dbdf6e.netlify.app/" class="btn" target="_blank">Live
-							version</a>
-					</section>
+            <article>
+              <a href="https://github.com/RICKCOYL/twitter" target="_blank" rel="noopener noreferrer"
+                class="image"><img src="images/twitter.png" alt="" /></a>
+              <div class="inner">
+                <h4>Twitter Redesign</h4>
+                <p>Twitter clone built using Ruby on Rails with signing up and logging in capabilities. A user
+                  can post and follow other users.</p>
+                <p>Ruby on Rails</p>
+                <ul class="actions">
+                  <li><a href="https://twitter-redesign-1.herokuapp.com/" class="button small primary solid" target="_blank"
+                      rel="noopener noreferrer"><i class="fas fa-desktop mr-1"></i> Live
+                      demo</a></li>
+                  <li><a href="https://github.com/RICKCOYL/twitter" class="button small solid"
+                      target="_blank" rel="noopener noreferrer"><i class="fas fa-code-branch mr-1"></i> Source
+                      code</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
 
-					<section>
-						<span class="icon solid major fa-code"></span>
-						<h3>Twitter Redesign</h3>
-						<img src="./images/twitter.png" alt="twitter-img" class="work-img">
-						<p>Twitter clone built using Ruby on Rails with signing up and logging in capabilities. A user
-							can post and follow other users.</p>
-						<a href="https://github.com/RICKCOYL/twitter" target="_blank">View code</a>
-						<a href="https://twitter-redesign-1.herokuapp.com/" class="btn" target="_blank">Live version</a>
-					</section>
-					<section>
-						<span class="icon solid major fa-code"></span>
-						<h3>Weather App</h3>
-						<img src="./images/weatherapp.png" alt="twitter-img" class="work-img">
-						<p>A weather app that pulls data from the OpenWeatherMap API to allow users to search for and
-							view
-							the forecast in cities worldwide. Built with JavaScript</p>
-						<a href="https://github.com/RICKCOYL/Weather-App" target="_blank">View code</a>
-						<a href="https://wonderful-fermat-2733a4.netlify.app/" class="btn" target="_blank">Live
-							version</a>
-					</section>
+            <article>
+              <a href="https://github.com/RICKCOYL/shooter-game"
+                target="_blank" rel="noopener noreferrer" class="image"><img src="images/shooter.png" alt="" /></a>
+              <div class="inner">
+                <h4>Shooter Game</h4>
+                <p>This is my capstone assessment where I was tasked with building a shooter video game. The goal is to get the highest score</p>
+                <p>Javascript and the game engine Phaser</p>
+                <ul class="actions">
+                  <li><a
+                      href="https://stoic-lichterman-bb2b21.netlify.app/"
+                      class="button small primary solid" target="_blank" rel="noopener noreferrer"><i
+                        class="fas fa-desktop mr-1"></i> Live
+                      demo</a></li>
+                  <li><a
+                      href="https://github.com/RICKCOYL/shooter-game"
+                      class="button small solid" target="_blank" rel="noopener noreferrer"><i
+                        class="fas fa-code-branch mr-1"></i> Source
+                      code</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
 
-					<section>
-						<span class="icon solid major fa-code"></span>
-						<h3>Shooter Game</h3>
-						<img src="./images/shooter.png" alt="twitter-img" class="work-img">
-						<p>This is my capstone assessment where I was tasked with building a shooter video game using
-							Javascript and the game engine Phaser</p>
-						<a href="https://github.com/RICKCOYL/shooter-game" target="_blank">View code</a>
-						<a href="https://stoic-lichterman-bb2b21.netlify.app/" class="btn" target="_blank">Live
-							version</a>
-					</section>
+            <article>
+              <a href="https://github.com/RICKCOYL/Hotel-finder" target="_blank" rel="noopener noreferrer"
+                class="image"><img src="images/directory.png" alt="" /></a>
+              <div class="inner">
+                <h4>Hotel-finder</h4>
+                <p>This is a fully responsive project built to finding hotels prior to travel.</p>
+                <p>HTML, CSS3/SCSS, Bootstrap, Font awesome icons, Webhint/Stylelint linters, NPM scripts</p>
+                <ul class="actions">
+                  <li><a href="https://raw.githack.com/RICKCOYL/Directory-of-Schools/development/index.html" class="button small primary solid"
+                      target="_blank" rel="noopener noreferrer"><i class="fas fa-desktop mr-1"></i> Live
+                      demo</a></li>
+                  <li><a href="https://github.com/RICKCOYL/Hotel-finder"
+                      class="button small solid" target="_blank" rel="noopener noreferrer"><i
+                        class="fas fa-code-branch mr-1"></i> Source
+                      code</a>
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
 
-				</div>
-			</div>
-		</section>
+      <!-- Certifications -->
+      <section id="certifications">
+        <h4 class="w-75 mx-auto mt-5">Certifications</h4>
+        <div class="table-wrapper w-75 mx-auto mb-4">
+          <table>
+            <thead>
+              <tr>
+                <th>Stack</th>
+                <th>Link</th>
+                <th>Organization</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ruby</td>
+                <td><a href="https://www.credential.net/d58a0e1d-2d75-4f38-a345-294b6078799f#gs.6xy33c" target="_blank"
+                    rel="noopener noreferrer">Certificate of completition Ruby/Databases module</a></td>
+                <td><a href="https://www.microverse.org/" target="_blank" rel="noopener noreferrer">Microverse</a></td>
+              </tr>
+              <tr>
+                <td>HTML/CSS</td>
+                <td><a href="https://www.credential.net/7ed8e380-976c-4517-b4b5-1ef5b5a3e0f3" target="_blank"
+                    rel="noopener noreferrer">Certificate of completition HTML/CSS module</a></td>
+                <td><a href="https://www.microverse.org/" target="_blank" rel="noopener noreferrer">Microverse</a></td>
+              </tr>
+              <tr>
+                <td><a
+                    href="https://www.credential.net/b20f1ffc-28be-4609-85a8-300b5d134b1c"
+                    target="_blank" rel="noopener noreferrer">Ruby on Rails</a></td>
+                <td>Certificate of completition Ruby on Rails module</td>
 
-		<!-- Three -->
-		<section id="three" class="wrapper style1 fade-up">
-			<div class="inner">
-				<h2>Get in touch</h2>
-				<p>Below you can find all my social media, phone number and email platforms you can use to reach me.</p>
-				<div class="split style1">
-					<section>
+                <td><a href="https://www.microverse.org/" target="_blank" rel="noopener noreferrer">Microverse</a>
+                </td>
+              </tr>
+              <tr>
+                <td><a
+                    href="https://www.credential.net/a7919b33-55ac-43df-bba5-85116219349e"
+                    target="_blank" rel="noopener noreferrer">JavaScript</a></td>
+                <td>Certificate of completition Javascript module</td>
 
-					</section>
-					<section>
-						<ul class="contact">
+                <td><a href="https://www.microverse.org/" target="_blank" rel="noopener noreferrer">Microverse</a>
+                </td>
+              </tr>
 
-							<li>
-								<h3>Email</h3>
-								<a href="#">Rickoburu@gmail.com</a>
-							</li>
-							<li>
-								<h3>Phone</h3>
-								<span> +256705427797 </span>
-							</li>
-							<li>
-								<h3>Social</h3>
-								<ul class="icons">
-									<li><a href="https://twitter.com/Rickcoyl" class="icon brands fa-twitter"
-											target="_blank"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.facebook.com/Rickcoyl/"
-											class="icon brands fa-facebook-f"><span class="label"
-												target="_blank">Facebook</span></a>
-									</li>
-									<li><a href="https://github.com/RICKCOYL" class="icon brands fa-github"
-											target="_blank"><span class="label">GitHub</span></a></li>
-									<li><a href="https://www.instagram.com/rick_oburu/"
-											class="icon brands fa-instagram"><span class="label"
-												target="_blank">Instagram</span></a>
-									</li>
-									<li><a href="https://www.linkedin.com/in/rickoburu/"
-											class="icon brands fa-linkedin-in"><span class="label"
-												target="_blank">LinkedIn</span></a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</section>
-				</div>
-			</div>
-		</section>
+            
+            </tbody>
+          </table>
+        </div>
+      </section>
 
-	</div>
+      <!-- Contact me -->
+      <section id="contact">
+        <div class="container my-4">
+          <h3 class="text-dark">Contact Me</h3>
+          <p class="text-dark">If you feel that my skills fit your requirements <span class="h3">🎯</span><br>
+            I am confident that I will
+            become one of your
+            top
+            employees <span class="h3">👨‍💻🥇</span></p>
+          <ul class="icons text-dark">
+            <li><a href="mailto:rickoburu@gmail.com" target="_blank" rel="noopener noreferrer"
+                class="icon solid h3 pr-1"><i class="fas fa-envelope"></i></a></li>
+            <li><a href="tel:+256705427797" target="_blank" rel="noopener noreferrer" class="icon brands h3 px-1"><i
+                  class="fas fa-phone-alt"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/rickoburu/" target="_blank" rel="noopener noreferrer"
+                class="icon brands h3 px-1"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li><a href="https://github.com/RICKCOYL" target="_blank" rel="noopener noreferrer"
+                class="icon solid h3 px-1"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
 
-	<!-- Footer -->
-	<footer id="footer" class="wrapper style1-alt">
-		<div class="inner">
+    <!-- Footer -->
+    <div id="footer">
+      <div class="container">
+        <ul class="copyright">
+          <li>&copy; Cristian Viorel Ceamatu All rights reserved.</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </div>
 
-		</div>
-	</footer>
+  </div>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="assets/js/app.js"></script>
 </body>
 
 </html>

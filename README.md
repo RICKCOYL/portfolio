@@ -1,33 +1,46 @@
-# porfolio
+![Hireable](https://img.shields.io/badge/Hireable-yes-success) ![](https://img.shields.io/badge/Mobile--responsive-yes-green) ![](https://img.shields.io/badge/-Microverse%20projects-blueviolet)
 
-Hyperspace by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Cristian Viorel Ceamatu - Persona Portofolio
 
-So I've had the wireframe for this particular design kicking around for some time, but with all
-the other interesting (and in some cases, semi-secret) projects I've been working on it took me
-a little while to get to actually designing and coding it. Fortunately, things have eased up
-enough for me to finaly get around to it, so I'm happy to introduce Hyperspace: a fun, blocky,
-one-page design with a lot of color, a bit of animation, and an additional "generic" page template
-(because hey, even one-page sites usually need an interior page or two). Hope you dig it :)
+> This is a personal portofolio build on top of the [html5up.net/read-only](https://html5up.net/read-only) template.
 
-Demo images\* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## Website screenshot
 
-(\* = not included)
+![screenshot](.github/app-screenshot2.png)
 
-AJ
-aj@lkn.io | @ajlkn
+## Built With
 
-Credits:
+- HTML
+- CSS3
+- Font awesome icons
+- Bootstrap
+- Jquery
+- Particles js
 
-    Demo Images:
-    	Unsplash (unsplash.com)
+## Live Demo
 
-    Icons:
-    	Font Awesome (fontawesome.io)
+[Live Demo Link](http://cristian.adydev.com/)
 
-    Other:
-    	jQuery (jquery.com)
-    	Scrollex (github.com/ajlkn/jquery.scrollex)
-    	Responsive Tools (github.com/ajlkn/responsive-tools)
+## To get a local copy up and running follow these simple example steps.
+
+### Setup
+
+Clone the project locally.
+
+Open `index.html` or install and run a live server plugin on you IDE/Text editor.
+
+## Authors
+
+👤 **Cristian Viorel Ceamatu**
+
+- Github: [@githubhandle](https://github.com/cristianCeamatu)
+- Twitter: [@twitterhandle](https://twitter.com/CristianCeamatu)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ceamatu-cristian/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
